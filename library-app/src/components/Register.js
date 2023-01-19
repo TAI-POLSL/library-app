@@ -25,9 +25,9 @@ const Register = () => {
     const [validMatch, setValidMatch] = useState(false);
     const [matchFocus, setMatchFocus] = useState(false);
 
-    const [firstName, setfirstName] = useState('');
-    const [validFirstName, setValidFirstName] = useState(false);
-    const [firstNameFocus, setFirstNameFocus] = useState(false);
+    // const [firstName, setfirstName] = useState('');
+    // const [validFirstName, setValidFirstName] = useState(false);
+    // const [firstNameFocus, setFirstNameFocus] = useState(false);
 
     const [errMsg, setErrMsg] = useState('');
     const [success, setSuccess] = useState(false);
