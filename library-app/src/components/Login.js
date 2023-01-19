@@ -43,9 +43,10 @@ const Login = () => {
             //console.log(JSON.stringify(response));
             const accessToken = response?.data?.accessToken;
             const roles = response?.data?.roles;
+            console.log(response?.data)
             setAuth({ user, pwd, roles, accessToken });
-            setUser('');
-            setPwd('');
+            //setUser('');
+            //setPwd('');
             navigate(from, { replace: true });
         } catch (err) {
             if (!err?.response) {
@@ -57,7 +58,7 @@ const Login = () => {
             } else {
                 setErrMsg('Login Failed');
             }
-            errRef.current.focus();
+            //errRef.current.focus();
         }
     }
 
