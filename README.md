@@ -1,1 +1,1 @@
-NODE v16.18.0
+https://blue-wave-0c2789803.2.azurestaticapps.net
